@@ -54,8 +54,21 @@ section {
   border: none;
   outline: none;
   border-radius: 0.3125rem;
+  transition: all .3s linear;
 }
 .btn:hover {
   color: #fff;
   background: #000c6bd0;
+}
+
+@media only screen and (max-width:768px) {
+  section {
+    padding: 1.875rem 0;
+  }
+  .section__title {
+    font-size: 1.6rem;
+  }
+  .section__subtitle {
+    font-size: 1.1rem;
+  }
 }
