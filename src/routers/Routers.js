@@ -8,7 +8,7 @@ import Blog from '../pages/Blog'
 import BlogDetails from '../pages/BlogDetails'
 import NotFound from '../pages/NotFound'
 
-const Routes = () => {
+const Routers = () => {
   return <Routes>
     <Route path='/' element={<Navigate to='/home' />}/>
     <Route path='/home' element={<Home />}/>
@@ -21,4 +21,4 @@ const Routes = () => {
   </Routes>
 }
 
-export default Routes
+export default Routers
