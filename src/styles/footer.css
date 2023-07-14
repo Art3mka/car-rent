@@ -21,8 +21,8 @@
 }
 
 .quick__link {
-    border: none;
-    background: transparent;
+    border: none !important;
+    background-color: transparent !important;
 }
 
 .quick__link a {

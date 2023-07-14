@@ -57,7 +57,7 @@ section {
   transition: all .3s linear;
 }
 .btn:hover {
-  color: #fff;
+  color: #fff !important;
   background: #000c6bd0;
 }
 
