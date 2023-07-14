@@ -1,13 +1,13 @@
 // import images from all-images/blog-img directory
-import img01 from "../all-images/blog-img/blog-1.jpg";
-import img02 from "../all-images/blog-img/blog-2.jpg";
-import img03 from "../all-images/blog-img/blog-3.jpg";
+import img01 from "../images/blog-img/blog-1.jpg";
+import img02 from "../images/blog-img/blog-2.jpg";
+import img03 from "../images/blog-img/blog-3.jpg";
 
 const blogData = [
   {
     id: 1,
     title: "The best way to drive cars",
-    author: "Muhib",
+    author: "Artem Shein",
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img01,
@@ -20,7 +20,7 @@ const blogData = [
   {
     id: 2,
     title: "If your car battery is down",
-    author: "Muhib",
+    author: "Artem Shein",
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img02,
@@ -33,7 +33,7 @@ const blogData = [
   {
     id: 3,
     title: "The best way to give trip",
-    author: "Muhib",
+    author: "Artem Shein",
     date: "12 Dec, 2020",
     time: "9pm",
     imgUrl: img03,

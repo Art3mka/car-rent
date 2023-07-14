@@ -9,6 +9,7 @@ import carData from '../assets/data/carData'
 import CarItem from '../components/UI/CarItem'
 import BecomeDriver from '../components/UI/BecomeDriver'
 import Testimonials from '../components/UI/Testimonials'
+import BlogList from '../components/UI/BlogList'
 
 const Home = () => {
   return (
@@ -66,6 +67,17 @@ const Home = () => {
               <h2 className="section__title">Testimonials</h2>
             </Col>
             <Testimonials />
+          </Row>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className='mb-5 text-center'>
+              <h6 className="section__subtitle">Explore our blogs</h6>
+              <h2 className="section__title">Latest Blogs</h2>
+            </Col>
+            <BlogList />
           </Row>
         </Container>
       </section>
