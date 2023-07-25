@@ -70,7 +70,7 @@ const Footer = () => {
             <p className='office__info'>Office Time: 10am - 8pm</p>
           </div>
         </Col>
-        <Col lg='3' md='4'>
+        <Col lg='3' md='4' sm='12'>
           <div className="mb-4">
             <h5 className="footer__link-title">Newsletter</h5>
             <p className="section__description">Subscribe our newsletter</p>
