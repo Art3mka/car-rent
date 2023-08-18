@@ -108,7 +108,7 @@ const Header = () => {
           <span className="mobile__menu">
             <i className='ri-menu-line' onClick={toggleMenu}></i>
           </span>
-          <div className="naavigation"ref={menuRef} onClick={toggleMenu}>
+          <div className="naavigation" ref={menuRef} onClick={toggleMenu}>
             <div className="menu">
               {
                 navLinks.map((item, index) => (

@@ -3,9 +3,9 @@ import { Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
 import '../../styles/car-item.css'
 
-const CarItem = (props) => {
+const CarItem = ({item}) => {
 
-    const { id, imgUrl, model, carName, automatic, speed, price } = props.item
+    const { imgUrl, model, carName, automatic, speed, price } = item
 
     return <Col lg='4' md='4' sm='6' className='mb-5'>
         <div className="car__item">
