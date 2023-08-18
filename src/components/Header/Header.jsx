@@ -32,7 +32,9 @@ const Header = () => {
 
   const menuRef = useRef(null)
 
-  const toggleMenu = () => menuRef.current.classList.toggle('menu__active')
+  const toggleMenu = () => {
+    menuRef.current.classList.toggle('menu__active')
+  }
 
   return <header className='header'>
     <div className="header__top">
@@ -108,7 +110,7 @@ const Header = () => {
           <span className="mobile__menu">
             <i className='ri-menu-line' onClick={toggleMenu}></i>
           </span>
-          <div className="naavigation" ref={menuRef} onClick={toggleMenu}>
+          <div className="navigation" ref={menuRef} onClick={toggleMenu}>
             <div className="menu">
               {
                 navLinks.map((item, index) => (

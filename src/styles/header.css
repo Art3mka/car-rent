@@ -184,9 +184,9 @@
         width: 15.625rem;
         height: 100%;
         background: #fff;
-        align-items: center;
         display: flex;
-        font-display: column;
+        align-items: center;
+        flex-direction: column;
         row-gap: 2rem;
         justify-content: center;
     }
