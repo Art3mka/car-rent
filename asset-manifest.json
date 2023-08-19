@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car-rent/static/css/main.ec6e4d30.css",
-    "main.js": "/car-rent/static/js/main.03a1813b.js",
+    "main.css": "/car-rent/static/css/main.22230880.css",
+    "main.js": "/car-rent/static/js/main.c8ccb7e3.js",
     "static/media/remixicon.svg?t=1687271883607": "/car-rent/static/media/remixicon.636515c9a8963df4380d.svg",
     "static/media/remixicon.eot?t=1687271883607": "/car-rent/static/media/remixicon.83e9a22ce7f199999169.eot",
     "static/media/remixicon.ttf?t=1687271883607": "/car-rent/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
@@ -28,11 +28,11 @@
     "static/media/slick.ttf": "/car-rent/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/car-rent/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/car-rent/index.html",
-    "main.ec6e4d30.css.map": "/car-rent/static/css/main.ec6e4d30.css.map",
-    "main.03a1813b.js.map": "/car-rent/static/js/main.03a1813b.js.map"
+    "main.22230880.css.map": "/car-rent/static/css/main.22230880.css.map",
+    "main.c8ccb7e3.js.map": "/car-rent/static/js/main.c8ccb7e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec6e4d30.css",
-    "static/js/main.03a1813b.js"
+    "static/css/main.22230880.css",
+    "static/js/main.c8ccb7e3.js"
   ]
 }
