@@ -14,7 +14,7 @@ import BlogList from '../components/UI/BlogList'
 const Home = () => {
   return (
     <Helmet title='Home'>
-      <section className="p-0 hero__slider-section">
+      <section className="p-0 hero__slider-section" >
         <HeroSlider />
         <div className="hero__form">
           <Container>

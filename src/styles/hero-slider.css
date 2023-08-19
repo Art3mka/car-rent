@@ -38,7 +38,7 @@
 }
 
 .reserve__btn {
-    background: #fff;
+    background: #fff !important;
     color: #000d6b;
     border: none;
     outline: none;

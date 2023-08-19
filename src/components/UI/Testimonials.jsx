@@ -9,6 +9,7 @@ import ava04 from '../../assets/images/ava-4.jpg'
 const Testimonials = () => {
 
     const settings = {
+        arrows: false,
         dots: true,
         infinite: true,
         autoplay: true,
@@ -23,8 +24,6 @@ const Testimonials = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
                 },
             },
             {
@@ -32,6 +31,7 @@ const Testimonials = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots: false,
                 },
             },
         ],

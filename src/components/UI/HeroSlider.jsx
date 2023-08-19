@@ -15,6 +15,8 @@ const HeroSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         pauseOnHover: false,
+        arrows: true,
+        dots: false,
     }
 
   return <Slider {...settings} className='hero__slider'>
