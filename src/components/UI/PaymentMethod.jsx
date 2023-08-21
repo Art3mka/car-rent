@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/payment-method'
+import '../../styles/payment-method.css'
 import masterCard from '../../assets/images/master-card.jpg'
 import payPal from '../../assets/images/paypal.jpg'
 
@@ -8,11 +8,6 @@ const PaymentMethod = () => {
     <div className="payment">
         <label htmlFor="" className='d-flex align-items-center gap-2'>
             <input type="radio" />Direct Bank Transfer
-        </label>
-    </div>
-    <div className="payment mt-3">
-        <label htmlFor="" className='d-flex align-items-center gap-2'>
-            <input type="radio" />
         </label>
     </div>
     <div className="payment mt-3 d-flex align-items-center justify-content-beetwen">
