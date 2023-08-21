@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap'
 import Helmet from '../components/Helmet/Helmet'
 import { useParams } from 'react-router-dom'
 import BookingForm from '../components/UI/BookingForm'
+import PaymentMethod from '../components/UI/PaymentMethod'
 
 const CarDetails = () => {
 
@@ -11,7 +12,9 @@ const CarDetails = () => {
 
   const singleCarItem = carData.find(item => item.carName === slug)
 
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[singleCarItem])
 
   return <Helmet title={singleCarItem.carName}>
     <section>
@@ -76,9 +79,15 @@ const CarDetails = () => {
             </div>
           </Col>
           <Col lg='7' className='mt-5'>
-            <div className="booking-info">
+            <div className="booking-info mt-5">
               <h5 className='mb-4 fw-bold'>Booking Information</h5>
               <BookingForm/ >
+            </div>
+          </Col>
+          <Col lg='5' className='mt-5'>
+            <div className="payment-info mt-5">
+              <h5 className='mb-4 fw-bold'>Payment Information</h5>
+              <PaymentMethod/ >
             </div>
           </Col>
         </Row>
